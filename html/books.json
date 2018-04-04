@@ -1,0 +1,77 @@
+[
+    {
+        "ref": "auto",
+        "title": "Auto",
+        "chapters": [
+            {
+                "ref": "links",
+                "bookRef": "auto",
+                "title": "Links",
+                "default": false,
+                "permalink": "/auto/links",
+                "fileUrl": "/docs/auto/links/readme.html",
+                "bookmarks": []
+            }
+        ]
+    },
+    {
+        "ref": "cooking",
+        "title": "Cooking",
+        "chapters": [
+            {
+                "ref": "links",
+                "bookRef": "cooking",
+                "title": "Links",
+                "default": false,
+                "permalink": "/cooking/links",
+                "fileUrl": "/docs/cooking/links/README.html",
+                "bookmarks": [
+                    {
+                        "title": "Links",
+                        "ref": "links"
+                    },
+                    {
+                        "title": "Knifes",
+                        "ref": "knifes"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ref": "general",
+        "title": "General",
+        "chapters": [
+            {
+                "ref": "games",
+                "bookRef": "general",
+                "title": "Games",
+                "default": false,
+                "permalink": "/general/games",
+                "fileUrl": "/docs/general/games/games.html",
+                "bookmarks": [
+                    {
+                        "title": "Одень родителя на работу",
+                        "ref": "oden-roditelya-na-rabotu"
+                    },
+                    {
+                        "title": "Пираты, поиски сокровищ",
+                        "ref": "piraty-poiski-sokrovish"
+                    },
+                    {
+                        "title": "Космическое путешествие",
+                        "ref": "kosmicheskoe-puteshestvie"
+                    },
+                    {
+                        "title": "Scavenger hunt",
+                        "ref": "scavenger-hunt"
+                    },
+                    {
+                        "title": "Эксперименты с яйцами",
+                        "ref": "eksperimenty-s-yajcami"
+                    }
+                ]
+            }
+        ]
+    }
+]

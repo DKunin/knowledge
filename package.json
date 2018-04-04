@@ -1,0 +1,26 @@
+{
+  "name": "knowledge",
+  "version": "0.0.1",
+  "private": false,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dkunin/knowledge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkunin/knowledge/issues"
+  },
+  "scripts": {
+    "test": "echo test",
+    "start": "node ./",
+    "dev": "node ./",
+    "build": "NODE_ENV=production node ./"
+  },
+  "homepage": "https://github.com/dkunin/knowledge",
+  "keywords": [],
+  "license": "MIT",
+  "description": "> 💡 document everything",
+  "dependencies": {
+    "md-docs": "0.1.1"
+  }
+}
