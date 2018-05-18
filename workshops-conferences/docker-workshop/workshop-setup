@@ -1,0 +1,30 @@
+#!/bin/bash
+ 
+set -e
+ 
+[[ "$(uname -s)" != "Darwin" ]] && echo "Please install Docker, VirtualBox, kubectl and minikube manually" && exit 1
+ 
+# install homebrew
+which -s brew || /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ 
+# install kubectl
+# // curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.8.0/bin/darwin/amd64/kubectl
+curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.5.2/bin/darwin/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+ 
+# install minikube
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.14.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
+ 
+# install virtualbox
+brew install Caskroom/cask/virtualbox
+ 
+# start miniukube
+minikube start
+ 
+# install root certificate
+minikube ssh "sudo mkdir -m 640 -p /etc/docker/certs.d/registry/ && sudo wget certadress/ca.crt -O /etc/docker/certs.d/registry/ca.crt"
+ 
+# check everything
+minikube version
+kubectl version
+eval $(minikube docker-env)
+docker version

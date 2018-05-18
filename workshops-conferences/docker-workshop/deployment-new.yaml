@@ -1,0 +1,38 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  selector:
+    matchLabels:
+      app: hello-world
+  template:
+    metadata:
+      labels:
+        app: hello-world
+    spec:
+      containers:
+      - name: frontend
+        image: custom-nginx
+        imagePullPolicy: Never
+        volumeMounts:
+        - mountPath: /etc/nginx/conf.d/default.conf
+          name: config
+          subPath: default.conf
+      - name: backend
+        image: test-image
+        ports:
+        - containerPort: 9000
+        volumeMounts:
+        - mountPath: /app
+          name: app
+      volumes:
+      - name: config
+        configMap:
+          name: hello-world
+          items:
+          - key: nginx
+            path: default.conf
+      - name: app
+        hostPath:
+          path: /Users/username/k8s-workshop/hello-world
