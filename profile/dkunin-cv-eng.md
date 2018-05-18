@@ -35,7 +35,23 @@ user experience design, interaction design, usability, information design overlo
 
 ## Experience
 
-### August 2015 - present: LLC "Keh eCommerce"(Avito) - Client-side developer / Team-lead
+### December 2017 - present: LLC "Keh eCommerce"(Avito) - Technical Unit Leader
+- planning, prioritising and scheduling of projects, considering team skills and load
+- managing, developing, hiring and building the team
+- team performance assessment
+- determining technical development strategy of services/products, that team provides
+- long-term planning of improvement and scaling of team's services and products
+- communicating with architecture and platform teams
+- code review and quality control, technical debt elimination plans and strategies
+- reporting technical performance, issues and achievements
+- developing and support of product/service documentation
+- UI development (front-end/JS)
+- keeping development stack up to date, checking for latest practices and innovations, and assessing their relevance to the project/services
+- responsibility for team's product/services uptime and performance
+- developing strategy of QA automation improvements and optimisations, increasing product delivery speeds
+
+
+### August 2015 - December 2017: LLC "Keh eCommerce"(Avito) - Client-side developer / Team-lead
 
 - **Main stack: React/Redux, Plain.js, es2015, Bootstrap.js**
 - single page application development, code refactoring
