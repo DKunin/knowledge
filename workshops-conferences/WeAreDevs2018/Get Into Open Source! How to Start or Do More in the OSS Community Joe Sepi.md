@@ -2,7 +2,7 @@
 
 - Github selfies
 - Ibm involved in linux foundation, a lot of in opensource and stuff
-- incubator-openwisk - opensource serverless platform for apache
+- incubator-openwisk - opensource serverless platform for apache (NB)
 - developer.ibm.com/code
     - code patterns and stuff
 
