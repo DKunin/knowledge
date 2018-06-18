@@ -21,6 +21,5 @@
   "license": "MIT",
   "description": "> 💡 document everything",
   "dependencies": {
-    "md-docs": "0.1.1"
   }
 }
