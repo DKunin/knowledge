@@ -1,4 +1,5 @@
 var docs = require('md-docs');
+
 docs.start(['**/*.md', '*.md'], {
     port: 8001,
     theme: 'dark',

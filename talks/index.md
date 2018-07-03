@@ -16,6 +16,7 @@ Linters, importance of them, the urgency of having one or several for your proje
 
 This talk could speak to anyone who is making a project, small one or big one - it doesn't matter, whether you are working along or on a team, especially if you are on the team.
 
+
 ## Videos
 
 http://youtu.be/_SWVDpHe7yg 
