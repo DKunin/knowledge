@@ -1,0 +1,60 @@
+{
+    "root": "",
+    "title": "monotome",
+    "subjects": {
+        "auto": [
+            "readme.md"
+        ],
+        "cooking": [
+            "README.md"
+        ],
+        "development": [
+            "app-checklist.md",
+            "code-review-checklist.md",
+            "component-checklist.md",
+            "snip-notes.md"
+        ],
+        "misc": [
+            "Dungeon&Dragons.md",
+            "internet-stuff.md",
+            "wall-paint.md"
+        ],
+        "parenting": [
+            "books.md",
+            "games.md",
+            "new-born-list.md"
+        ],
+        "philosophy": [
+            "medetations.md",
+            "quotes.md"
+        ],
+        "poems": [
+            "limerics.md"
+        ],
+        "profile": [
+            "dkunin-cv-eng.md",
+            "dkunin-cv-rus.md",
+            "photos.md",
+            "profile.md"
+        ],
+        "survival": [
+            "README.md"
+        ],
+        "talks": [
+            "dat-talk.md",
+            "index.md",
+            "speaker.md"
+        ],
+        "workshops-conferencesWeAreDevs2018/": [
+            "A Rube Goldberg Machine Ada Rose Edwards.md",
+            "Adding Vue.js To an Existing Stack and Make It Scale Roman Kuba.md",
+            "Building Cooperate Chatbots with Open Source Technology Gregor Jarisch.md",
+            "Closing My Window with Java Script Martin Sonnenholzer.md",
+            "Get Into Open Source! How to Start or Do More in the OSS Community Joe Sepi.md",
+            "Max-Stoiber.md",
+            "stack-overflow.md"
+        ]
+    },
+    "redirects": {},
+    "missing": []
+}
