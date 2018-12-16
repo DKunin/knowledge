@@ -1,6 +1,6 @@
 # Дмитрий Кунин
 
-![self](./media/photo1.jpg)
+![self](./media/photo3.jpg)
 
 ### Тимлид разработчиков клиентской части
  - +79057801950 
@@ -46,3 +46,4 @@
 - MoscowJS Meetup 06.09.2013 [Видео](http://youtu.be/_SWVDpHe7yg)
 - MoscowJS Meetup 26.03.2015 [Видео](http://www.youtube.com/watch?v=7LW740IQzEo)
 - Lint yourself Frontend Conf 2018 [Видео](https://www.youtube.com/watch?v=O0CIg09F9HE)
+- Dat протокол — общие понятия, инструменты, применение  [Видео](﻿﻿https://www.youtube.com/watch?v=ON07SLfox9I)
